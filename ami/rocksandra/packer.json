@@ -21,7 +21,9 @@
             "tags": {
                 "Name": "rocksandra-benchmark-{{user `image_version`}}",
                 "Description": "Rocksandra image for benchmark purpose"
-            }
+            },
+            "vpc_id": "vpc-d53293ac",
+            "subnet_id": "subnet-878e89cf"
         }
     ],
     "provisioners": [
